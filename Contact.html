@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My test page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand bg-dark">
+            <div class="container-fluid ">
+                
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#">
+                        <img class="rounded-pill" src="assets/conimg.png" style="width:70px ;">
+                    </a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link active" href="Home.html">Home</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Sponsers.html">Sponsers</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" href="#">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Schedule.html">Schedule</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Speakers.html">Speakers</a></li>
+                        <li><hr class="dropdown-divider"></li>    
+                        <li><a class="dropdown-item" href="Contact.html">Contact us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+            <h1 class="text-center m-3">Contact Us</h1>
+         <div class="row mx-auto p-2" >
+            <div class="form-floating  col">
+            <input class="form-control" name="username" id="username" type="text"placeholder="Enter Username" required>
+            <label class="p-3" for="username">First Name</label>
+            </div>
+            <div class="form-floating  col">
+                <input class="form-control" name="Last" type="text" placeholder="EnterLastName" required>
+                <label class="p-3" for="Last">Last Name</label>
+            </div>
+        </div>
+        <div class="row mx-auto p-2">
+            <div class="col form-floating input-group">
+                <input class="form-control" type="Email" name="Email" placeholder="Enter Email" required>
+                <span class="input-group-text">@example.com</span>
+                <label class="p-3" for="Email">Email</label>
+            </div>
+            <div class="col form-floating">
+                <input class="form-control" name="subject" placeholder="Enter subject" type="text" required>
+                <label class="p-3 form-label" for="subject">Subject</label>
+            </div>
+        </div>
+        <div class=" form-floating p-2 m-1">
+            <textarea class=" form-control" name="msg" id="msg" placeholder="MessageGoesHere" rows="15" cols="15" style="resize: none;width: 1255px;height: 100px;">
+                
+            </textarea>
+            <label class="p-3 form-label" for="Message">Message</label>
+        </div>
+        <div class="text-center p-3">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+        </form>
+        
+        <div class="row text-center">
+            <h6>For inquiries, contact us at:</h6><br>
+            <h6>TechXperience@exampleconference.com or</h6>
+            <h6>Phone:+962799999999</h6>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>
